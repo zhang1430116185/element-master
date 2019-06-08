@@ -1,0 +1,159 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+:focus {
+  outline: 0;
+}
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+}
+@font-face {
+  font-family: 'sell-icon';
+  src: url("common/fonts/sell-icon.eot?nowozp");
+  src: url("common/fonts/sell-icon.eot?nowozp#iefix") format('embedded-opentype'), url("common/fonts/sell-icon.ttf?nowozp") format('truetype'), url("common/fonts/sell-icon.woff?nowozp") format('woff'), url("common/fonts/sell-icon.svg?nowozp#sell-icon") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+/* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'sell-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+/* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-arrow_lift:before {
+  content: "\e900";
+}
+.icon-check_circle:before {
+  content: "\e901";
+}
+.icon-close:before {
+  content: "\e902";
+}
+.icon-favorite:before {
+  content: "\e903";
+}
+.icon-keyboard_arrow_right:before {
+  content: "\e904";
+}
+.icon-remove_circle_outline:before {
+  content: "\e905";
+}
+.icon-shopping_cart:before {
+  content: "\e906";
+}
+.icon-thumb_down:before {
+  content: "\e907";
+}
+.icon-thumb_up:before {
+  content: "\e908";
+}
+.icon-add_circle:before {
+  content: "\1f4";
+}
